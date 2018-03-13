@@ -1,0 +1,13 @@
+<div class="social">
+    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="//yastatic.net/share2/share.js"></script>
+    <div 
+        class="ya-share2" //название сласса для блочного элемента (обязательно)
+        data-services="vkontakte,facebook,odnoklassniki,twitter,telegram" //соц сети
+        data-title="[[+pagetitle]]"  //заголовок
+        data-image="[[++site_url]][[+tv.prew]]" //Изображение
+        data-url="[[++site_url]][[+uri]]" //урл
+        data-description="[[+introtext:ellipsis=`100`]]"> //описание
+    </div>
+    <i class="fa fa-share-square-o" aria-hidden="true"></i> //иконка поделиться
+</div>

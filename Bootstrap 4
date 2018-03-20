@@ -1,0 +1,8 @@
+col-     Extra small <576px
+col-sm-  Small ≥576px
+col-md-  Medium ≥768px
+col-lg-  Large ≥992px
+col-xl-  Extra large ≥1200px
+
+col занимает пространство автоматически все, либо изменяет свой размер в завимости от родственных классов
+col-{breakpoint}-auto 

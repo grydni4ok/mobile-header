@@ -8,9 +8,10 @@
   2. git config --global user.email "grydni4ok_01@mail.ru"
   
  Команды:
-  1. git status - проверка имеются не сохранные файлы
-  2. git add . - сохраняет все файлы
-  3. git commit -m "first commit" - создает слепок git
+  1. git init  -инициализация нашего проекта
+  2. git status - проверка имеются не сохранные файлы
+  3. git add . - сохраняет все файлы
+  4. git commit -m "first commit" - создает слепок git
   
 Для заливки версий на репозиторий:
   1. создаем новый репозиторий

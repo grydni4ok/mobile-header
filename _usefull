@@ -4,3 +4,6 @@
 
 Управление длиной выводимой информациии
   1) [[+introtext:ellipsis=`250`]]
+  
+Вывод поля
+  1) [[pdoField? &id=`1` &field=`pagetitle`]]

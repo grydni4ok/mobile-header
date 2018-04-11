@@ -16,3 +16,6 @@ Rsync - деплой
 +font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular")
 +font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", 700)
 
+Для отключение минификации файлов css, необходимо в gulpfile.js в функции gulp.task('styles', function(){} закоментировать строки
+.pipe(rename({ suffix: '.min', prefix : '' })) и //.pipe(cleancss( {level: { 1: { specialComments: 0 } } })) // Opt., comment out when debugging
+

@@ -12,3 +12,9 @@ Table:
 {"header": "Name", "sortable": "true", "dataIndex": "title"},
 {"header": "Photo", "width": "80", "sortable": "false", "dataIndex": "imageTV","renderer": "this.renderImage"}
 ]
+
+[[getImageList?
+    &tvname=`migx-home`
+    &tpl=`home-complect`
+    &docid=`1`
+]]

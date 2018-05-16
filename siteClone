@@ -15,4 +15,8 @@ https://s7.ibb.su:1500/ispmgr
   Указываем созданный нами хост testnew.ibb.su (можно сохранить сессию при желании) и открываем сессию
   В открывшемся окне сессии указываем свой логин и пароль
   
- 
+bw4@s7.ibb.su -p 187
+1)зайти под рут sudo su 
+2)cd /var/www/cloner/
+3)создаем домен  на https://pddimp.yandex.ru/nsapi/add_a_record.xml?subdomain=test111&content=93.170.128.29&token=acdd6f1ffbfdfbc0091bf0e8d78f94da4353806d56e32da82c0f571b&domain=ibb.su
+4)запускаем клонер ./cloner.sh имя пользователя <test111> , имя домена (test111.ibb.su) , полный путь к сайту (/var/www/devbase/data/www/devbase.ibb.su/)

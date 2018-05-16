@@ -20,6 +20,8 @@ bw4@s7.ibb.su -p 187
 2)cd /var/www/cloner/
 3)создаем домен  на https://pddimp.yandex.ru/nsapi/add_a_record.xml?subdomain=test111&content=93.170.128.29&token=acdd6f1ffbfdfbc0091bf0e8d78f94da4353806d56e32da82c0f571b&domain=ibb.su
 4)запускаем клонер ./cloner.sh имя пользователя <test111> , имя домена (test111.ibb.su) , полный путь к сайту (/var/www/devbase/data/www/devbase.ibb.su/)
+./cloner.sh egormodx egormodx.ibb.su /var/www/devbase/data/www/devbase.ibb.su/
+
 
 Привязка нового домаена:
   1) зайти в s7

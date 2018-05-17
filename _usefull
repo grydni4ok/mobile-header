@@ -7,3 +7,14 @@
   
 Вывод поля
   1) [[pdoField? &id=`1` &field=`pagetitle`]]
+
+Скрипт ничего не делающий: javascript:void(0)
+
+
+[[pdoResources?
+    &parents=`11`
+    &depth=`0`
+    &tpl=`service-item`
+    &includeTVs=`service-icon`
+    &sortdir=`ABC`
+]]

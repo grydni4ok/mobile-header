@@ -18,3 +18,9 @@
     &includeTVs=`service-icon`
     &sortdir=`ABC`
 ]]
+
+[[getImageList?
+    &tvname=`migx-slider`
+    &tpl=`slider-item`
+    &docid=`1`
+]]

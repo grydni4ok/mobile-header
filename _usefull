@@ -10,6 +10,9 @@
 
 Скрипт ничего не делающий: javascript:void(0)
 
+Условие, где idx - номер элемета по порядку
+  1) [[+idx:is=`4`:then=`col-md-offset-2`]] 
+
 
 [[pdoResources?
     &parents=`11`

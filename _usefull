@@ -19,6 +19,7 @@
     &depth=`0`
     &tpl=`service-item`
     &includeTVs=`service-icon`
+    &includeContent=`1`
     &sortdir=`ABC`
 ]]
 

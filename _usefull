@@ -31,3 +31,13 @@
 
 Тень для блока
   box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+
+Паралакс
+  background: #3B2C53 url(../img/new/par.jpg) fixed;
+  color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-background-size: cover;
+  background-size: cover;

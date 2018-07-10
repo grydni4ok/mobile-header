@@ -41,3 +41,5 @@
   z-index: -1;
   -webkit-background-size: cover;
   background-size: cover;
+  
+<link rel="icon" type="image/png" href="favicon.png">

@@ -30,3 +30,25 @@
     		});
     	});
     });
+
+Измение слайдера на fade
+  <div id="testCarousel" class="carousel slide" data-ride="carousel">
+  меняем класс на:
+  <div id="testCarousel" class="carousel fade" data-ride="carousel">
+  добавляем css свойства:
+  .carousel.fade{
+    opacity: 1;
+  }
+  .carousel.fade .item{
+    display: block;
+    position: absolute;	
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  .carousel.fade .item.active{
+    position: relative;
+    opacity: 1;
+  }

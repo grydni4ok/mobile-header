@@ -43,3 +43,18 @@
   background-size: cover;
   
 <link rel="icon" type="image/png" href="favicon.png">
+
+<script>
+  var i = 1;
+  if (document.documentElement.clientWidth > 991){
+    if(i == 3){
+      document.write('<div class="clearfix visible-lg visible-md"></div>');
+      i = 0;
+    }
+  }else if (document.documentElement.clientWidth > 767){
+    if(i == 2){
+      document.write('<div class="clearfix visible-sm"></div>');
+      i = 0;
+    }
+  }  
+</script>

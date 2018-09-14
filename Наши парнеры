@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+
+<section class="partners">
+	<div class="container">
+		<div class="text-center">
+	        <p class="title">Наши партнеры</p>
+	    </div>
+		<div class="slick-partners">
+			<div class="slick-item-wrapper"><img src="img/smir.png" alt=""></div>
+			<div class="slick-item-wrapper"><img src="img/zven1.png" alt=""></div>
+			<div class="slick-item-wrapper"><img src="img/zven2.png" alt=""></div>
+			<div class="slick-item-wrapper"><img src="img/smir.png" alt=""></div>
+			<div class="slick-item-wrapper"><img src="img/zven1.png" alt=""></div>
+			<div class="slick-item-wrapper"><img src="img/zven2.png" alt=""></div>
+		</div>
+	</div>
+</section>
+
+<script src="js/slick.min.js"></script>
+
+<script>
+	$('.slick-partners').slick({
+	  dots: false,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 1,
+	  centerMode: true,
+	  variableWidth: true
+	});
+</script>
+
+/* ----  section.partners  ---- */
+.slick-item-wrapper {
+    margin: 0 40px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex !important;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+}
+.slick-item-wrapper img {
+    max-height: 150px;
+}
+.slick-next {
+    right: 20px;
+    z-index: 1;
+}
+.slick-prev {
+    left: 20px;
+    z-index: 1;
+}
+/* ----  end section.partners  ---- */

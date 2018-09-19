@@ -1,0 +1,21 @@
+Обычная галлерея, не забыть подключить fancybox
+[[!ms2Gallery?
+    &tplRow=`ms2Gallery.row`
+    &tplOuter=`ms2Gallery.outer`
+    &tplEmpty=``
+    &tplSingle=``
+    &tpl=``
+]]
+В настройках ms2gallery настроили изображение 545x408
+
+чанк ms2gallery.outer
+<div class="row">
+	[[+rows]]
+</div>
+
+чанк ms2gallery.row
+<div class="col-lg-3 col-md-4 col-sm-6">
+	<a data-fancybox="gallery" href="[[+url]]">
+	    <img src="[[+545x408]]" alt="" title="" class="gallery-img">
+	</a>
+</div>

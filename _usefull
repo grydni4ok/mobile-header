@@ -12,6 +12,8 @@
 
 Условие, где idx - номер элемета по порядку
   1) [[+idx:is=`4`:then=`col-md-offset-2`]] 
+Выведется, если old_price > 0
+  [[+old_price:gt=`0`:then=`<span class="money money_sale">[[+old_price]] руб</span>`:else=``]]
 
 
 [[pdoResources?

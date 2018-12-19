@@ -31,6 +31,8 @@
     &docid=`1`
 ]]
 
+[[*publishedon:strtotime:date=`%d / %B / %Y`]] - вывод даты, в настройках системы, по ключу locale, прописать ru_RU.UTF8
+
 Тень для блока
   box-shadow: 0 14px 28px rgba(0,0,0,0.25);
 

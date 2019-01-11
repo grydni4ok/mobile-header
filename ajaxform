@@ -3,6 +3,7 @@
    &form=`form1Tpl`
    &hooks=`FormItSaveForm,email`
    &emailTpl=`form1-send`
+   &emailFrom=`call.back.19@yandex.ru`
    &emailSubject=`Обратная связь [[++site_name]]`
    &emailTo=`[[++email]]`
    &validate=`name:required,email:required,message:required`

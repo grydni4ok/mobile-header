@@ -1,3 +1,5 @@
+wget --page-requisites -r -l 10 http://site.ru﻿
+
 Обработка фотографий 
   1) [[!phpthumbon? &input=`[[+tv.prew]]` &options=`w=600&h=400&zc=1`]]
   2) [[+tv.prew:phpthumbon=`w=100&h=68&zc=1`]]

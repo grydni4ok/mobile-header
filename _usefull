@@ -6,6 +6,7 @@ wget --page-requisites -r -l 10 http://site.ru﻿
 
 Управление длиной выводимой информациии
   1) [[+introtext:ellipsis=`250`]]
+  2) [[+introtext:limit=`150`]]
   
 Вывод поля
   1) [[pdoField? &id=`1` &field=`pagetitle`]]
